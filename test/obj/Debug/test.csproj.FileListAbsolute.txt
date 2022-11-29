@@ -35,3 +35,17 @@ C:\Users\h8662\Downloads\in-outbound-management-system-main\in-outbound-manageme
 C:\Users\h8662\Downloads\in-outbound-management-system-main\in-outbound-management-system-main\test\obj\Debug\test.csproj.CopyComplete
 C:\Users\h8662\Downloads\in-outbound-management-system-main\in-outbound-management-system-main\test\obj\Debug\test.exe
 C:\Users\h8662\Downloads\in-outbound-management-system-main\in-outbound-management-system-main\test\obj\Debug\test.pdb
+D:\github\in-outbound-management-system\test\bin\Debug\test.exe.config
+D:\github\in-outbound-management-system\test\bin\Debug\test.exe
+D:\github\in-outbound-management-system\test\bin\Debug\test.pdb
+D:\github\in-outbound-management-system\test\bin\Debug\System.Data.SQLite.dll
+D:\github\in-outbound-management-system\test\bin\Debug\System.Data.SQLite.xml
+D:\github\in-outbound-management-system\test\obj\Debug\test.csprojAssemblyReference.cache
+D:\github\in-outbound-management-system\test\obj\Debug\test.Form1.resources
+D:\github\in-outbound-management-system\test\obj\Debug\test.Form2.resources
+D:\github\in-outbound-management-system\test\obj\Debug\test.Properties.Resources.resources
+D:\github\in-outbound-management-system\test\obj\Debug\test.csproj.GenerateResource.cache
+D:\github\in-outbound-management-system\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\github\in-outbound-management-system\test\obj\Debug\test.csproj.CopyComplete
+D:\github\in-outbound-management-system\test\obj\Debug\test.exe
+D:\github\in-outbound-management-system\test\obj\Debug\test.pdb

@@ -71,6 +71,7 @@ namespace test
             // 
             this.PasInp.Location = new System.Drawing.Point(141, 81);
             this.PasInp.Name = "PasInp";
+            this.PasInp.PasswordChar = '*';
             this.PasInp.Size = new System.Drawing.Size(100, 22);
             this.PasInp.TabIndex = 3;
             this.PasInp.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -100,6 +101,7 @@ namespace test
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 179);
+            this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PasInp);
@@ -107,7 +109,7 @@ namespace test
             this.Controls.Add(this.CancelBut);
             this.Controls.Add(this.LoginBut);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "登入";
             this.ResumeLayout(false);
             this.PerformLayout();
 
