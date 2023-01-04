@@ -179,6 +179,7 @@ namespace test
             double _price = 0;
             double _number = 0;
             double _sum = 0;
+            string _radiobutton_log = "";
 
             // 抓取textbox的資料
             _name = shipmentbar.Text;
@@ -190,14 +191,16 @@ namespace test
             if (inshipment.Checked == true)
             {
                 _stock_type = 0;
+                _radiobutton_log = "進貨";
             }
-            else
+            if (outshipment.Checked == true)
             {
                 _stock_type = 1;
+                _radiobutton_log = "出貨";
             }
             // update
             this.index = this.index + 1;
-
+            showlog.Text = String.Format("{0}  商品:{1}  總金額:{2} ", _radiobutton_log, _name, _price * _number);
             // add item into database
 
             string sql = @"INSERT INTO record (date, type, name,price,number)
@@ -236,11 +239,6 @@ namespace test
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void reNewdata_Click(object sender, EventArgs e)
         {
             string _name = "";
@@ -248,14 +246,17 @@ namespace test
             int _stock_type = 0;
             double _price = 0;
             double _number = 0;
+            string _radiobutton_log = "";
 
             if (inshipment.Checked == true)
             {
                 _stock_type = 0;
+                _radiobutton_log = "進貨";
             }
-            else
+            if (outshipment.Checked == true)
             {
                 _stock_type = 1;
+                _radiobutton_log = "出貨";
             }
 
             // 抓取textbox的資料
@@ -265,7 +266,7 @@ namespace test
             _price = Convert.ToDouble(pricetext.Text);
             _number = Convert.ToDouble(mounttext.Text);
             _serial = Convert.ToInt32(numshow.Text);
-
+            showlog.Text = String.Format("更新資料\n{0}  商品:{1}  總金額:{2} ", _radiobutton_log, _name, _price * _number);
 
             string sql = @"UPDATE record " +
                       " SET name = '" + _name + "',"
@@ -279,45 +280,7 @@ namespace test
             DBConfig.sqlite_cmd.ExecuteNonQuery();
             Show_DB();
 
-            /*
-            string _name = "";
-            int _serial = 0;
-            int _stock_type = 0;
-            double _price = 0;
-            double _number = 0;
-
-            if (inshipment.Checked == true)
-            {
-                _stock_type = 0;
-            }
-            else
-            {
-                _stock_type = 1;
-            }
-
-            // 抓取textbox的資料
-            _name = shipmentbar.Text;
-
-
-            _price = Convert.ToDouble(pricetext.Text);
-            _number = Convert.ToDouble(mounttext.Text);
-            _serial = Convert.ToInt32(numshow.Text);
-
-
-            string sql = @"UPDATE record " +
-                      " SET name = '" + _name + "',"
-                        + " type = '" + _stock_type.ToString() + "' , "
-                        + " price = '" + _price.ToString() + "',"
-                        + " number = '" + _number.ToString() + "' "
-                        + "   where serial = " + _serial.ToString() + ";";
-
-
-            DBConfig.sqlite_cmd = new SQLiteCommand(sql, DBConfig.sqlite_connect);
-            DBConfig.sqlite_cmd.ExecuteNonQuery();
-            Show_DB();
-            updateChart();
-            */
-
+           
         }
         public void updateChart()
         {
