@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.inputdata = new System.Windows.Forms.Button();
             this.outputdata = new System.Windows.Forms.Button();
             this.mount = new System.Windows.Forms.Label();
@@ -95,7 +96,7 @@
             // inputdata
             // 
             this.inputdata.Location = new System.Drawing.Point(27, 277);
-            this.inputdata.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inputdata.Margin = new System.Windows.Forms.Padding(2);
             this.inputdata.Name = "inputdata";
             this.inputdata.Size = new System.Drawing.Size(80, 26);
             this.inputdata.TabIndex = 0;
@@ -106,7 +107,7 @@
             // outputdata
             // 
             this.outputdata.Location = new System.Drawing.Point(241, 277);
-            this.outputdata.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.outputdata.Margin = new System.Windows.Forms.Padding(2);
             this.outputdata.Name = "outputdata";
             this.outputdata.Size = new System.Drawing.Size(80, 26);
             this.outputdata.TabIndex = 1;
@@ -176,7 +177,7 @@
             // showlog
             // 
             this.showlog.Location = new System.Drawing.Point(38, 190);
-            this.showlog.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.showlog.Margin = new System.Windows.Forms.Padding(2);
             this.showlog.Name = "showlog";
             this.showlog.Size = new System.Drawing.Size(172, 57);
             this.showlog.TabIndex = 10;
@@ -191,7 +192,7 @@
             "口罩",
             "溫度計"});
             this.shipmentbar.Location = new System.Drawing.Point(109, 57);
-            this.shipmentbar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.shipmentbar.Margin = new System.Windows.Forms.Padding(2);
             this.shipmentbar.Name = "shipmentbar";
             this.shipmentbar.Size = new System.Drawing.Size(82, 20);
             this.shipmentbar.TabIndex = 11;
@@ -200,7 +201,7 @@
             // pricetext
             // 
             this.pricetext.Location = new System.Drawing.Point(115, 84);
-            this.pricetext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pricetext.Margin = new System.Windows.Forms.Padding(2);
             this.pricetext.Name = "pricetext";
             this.pricetext.Size = new System.Drawing.Size(68, 22);
             this.pricetext.TabIndex = 12;
@@ -208,7 +209,7 @@
             // mounttext
             // 
             this.mounttext.Location = new System.Drawing.Point(115, 109);
-            this.mounttext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mounttext.Margin = new System.Windows.Forms.Padding(2);
             this.mounttext.Name = "mounttext";
             this.mounttext.Size = new System.Drawing.Size(68, 22);
             this.mounttext.TabIndex = 13;
@@ -218,9 +219,9 @@
             this.groupBox1.Controls.Add(this.outshipment);
             this.groupBox1.Controls.Add(this.inshipment);
             this.groupBox1.Location = new System.Drawing.Point(38, 140);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(171, 37);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
@@ -230,7 +231,7 @@
             // 
             this.outshipment.AutoSize = true;
             this.outshipment.Location = new System.Drawing.Point(112, 19);
-            this.outshipment.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.outshipment.Margin = new System.Windows.Forms.Padding(2);
             this.outshipment.Name = "outshipment";
             this.outshipment.Size = new System.Drawing.Size(47, 16);
             this.outshipment.TabIndex = 1;
@@ -242,7 +243,7 @@
             // 
             this.inshipment.AutoSize = true;
             this.inshipment.Location = new System.Drawing.Point(5, 19);
-            this.inshipment.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inshipment.Margin = new System.Windows.Forms.Padding(2);
             this.inshipment.Name = "inshipment";
             this.inshipment.Size = new System.Drawing.Size(47, 16);
             this.inshipment.TabIndex = 0;
@@ -290,7 +291,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(238, 37);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(582, 233);
@@ -301,9 +302,9 @@
             this.tabPage1.Controls.Add(this.ExportExcelBut);
             this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage1.Size = new System.Drawing.Size(574, 207);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "資料列表";
@@ -332,7 +333,7 @@
             this.Column6,
             this.Column7});
             this.dataGridView1.Location = new System.Drawing.Point(4, 4);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 65;
@@ -393,9 +394,9 @@
             this.tabPage2.Controls.Add(this.chart1);
             this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(574, 207);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "出貨圖表";
@@ -423,22 +424,22 @@
             // 
             // chart2
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chart2.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chart2.Legends.Add(legend1);
             this.chart2.Location = new System.Drawing.Point(283, 19);
-            this.chart2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chart2.Margin = new System.Windows.Forms.Padding(2);
             this.chart2.Name = "chart2";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.CustomProperties = "PieLabelStyle=Outside, PieLineColor=Black";
-            series3.Font = new System.Drawing.Font("微軟正黑體", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series3.Label = "#VALX \\n#PERCENT / #VAL";
-            series3.Legend = "Legend1";
-            series3.Name = "stocks";
-            this.chart2.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.CustomProperties = "PieLabelStyle=Outside, PieLineColor=Black";
+            series1.Font = new System.Drawing.Font("微軟正黑體", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.Label = "#VALX \\n#PERCENT / #VAL";
+            series1.Legend = "Legend1";
+            series1.Name = "stocks";
+            this.chart2.Series.Add(series1);
             this.chart2.Size = new System.Drawing.Size(280, 141);
             this.chart2.TabIndex = 5;
             this.chart2.Text = "chart2";
@@ -476,18 +477,18 @@
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(5, 20);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.Font = new System.Drawing.Font("微軟正黑體", 10.2F);
-            series4.Label = "#VAL";
-            series4.Legend = "Legend1";
-            series4.Name = "stocks";
-            this.chart1.Series.Add(series4);
+            series2.ChartArea = "ChartArea1";
+            series2.Font = new System.Drawing.Font("微軟正黑體", 10.2F);
+            series2.Label = "#VAL";
+            series2.Legend = "Legend1";
+            series2.Name = "stocks";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(273, 141);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
@@ -508,9 +509,9 @@
             this.tabPage3.Controls.Add(this.label4);
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage3.Size = new System.Drawing.Size(574, 207);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "統計";
@@ -519,7 +520,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(301, 35);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(178, 155);
             this.pictureBox2.TabIndex = 3;
@@ -528,7 +529,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(41, 35);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(207, 161);
             this.richTextBox1.TabIndex = 2;
@@ -558,7 +559,7 @@
             // 
             this.pictureBox1.Image = global::test.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(615, 277);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(199, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -568,7 +569,7 @@
             // reNewdata
             // 
             this.reNewdata.Location = new System.Drawing.Point(134, 277);
-            this.reNewdata.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.reNewdata.Margin = new System.Windows.Forms.Padding(2);
             this.reNewdata.Name = "reNewdata";
             this.reNewdata.Size = new System.Drawing.Size(80, 26);
             this.reNewdata.TabIndex = 18;
@@ -598,8 +599,9 @@
             this.Controls.Add(this.outputdata);
             this.Controls.Add(this.inputdata);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "進出貨紀錄系統";
             this.groupBox1.ResumeLayout(false);
